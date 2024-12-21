@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane prefHeight="521.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <center>
+      <Pane prefHeight="521.0" prefWidth="325.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="cuadrado" layoutX="96.0" layoutY="74.0" onMouseMoved="#animacion" prefHeight="282.0" prefWidth="295.0" style="-fx-background-color: #000000;" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
