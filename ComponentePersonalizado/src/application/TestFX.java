@@ -33,14 +33,8 @@ public class TestFX extends org.testfx.framework.junit.ApplicationTest {
 
     @Test
     public void testPaneExists() {
-        // Crear un robot de TestFX
         FxRobot robot = new FxRobot();
-
-        Object cuadrado;
-		// Buscar el panel con ID #cuadrado
         boolean pane = robot.lookup("#cuadrado").equals(cuadrado);
-
-        // Verificar que el panel no es nulo
         assertNotNull(pane, "El panel debería existir");
     }
 }
